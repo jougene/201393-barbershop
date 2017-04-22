@@ -1,0 +1,24 @@
+body {
+    color: black;
+    font-family: "PT Sans Narrow", Arial;
+}
+
+/*******************HEADER***********************/
+/************************************************/
+
+/*******************MAIN***********************/
+.page-heading {
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 42px;
+}
+
+.catalog-description {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 18px; 
+}
+/**********************************************/
+
+/*******************FOOTER***********************/
+/************************************************/

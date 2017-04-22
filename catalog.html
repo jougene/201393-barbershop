@@ -3,12 +3,13 @@
 <head>
   <meta charset="utf-8">
   <title>Каталог</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header class="page-header">
     <div class="container">
       <div class="logo">
-        <img src="http://placehold.it/120x50" width="120" height="50" alt="Барбершоп">
+        <img src="img/logo.png" width="111" height="24" alt="Барбершоп">
       </div>
       <nav class="main-menu">
         <ul>
@@ -35,7 +36,7 @@
     </div>
   </header>
   <main class="container">
-    <h1>Средства для ухода</h1>
+    <h1 class="page-heading">Средства для ухода</h1>
     <div class="breadcrumbs">
       <ul>
         <li>
@@ -51,8 +52,8 @@
     </div>
     <aside class="catalog-filter">
       <form action="/catalog-filter" method="post">
-        <div class="form-group">
-          <h2>Производители</h2>
+        <fieldset class="form-group">
+          <legend>Производители</legend>
           <label>
             <input type="checkbox" name="baxter_of_california">
             BAXTER OF CALIFORNIA
@@ -77,9 +78,9 @@
             <input type="checkbox" name="americal_crew">
             AMERICAL CREW
           </label>
-        </div>
-        <div class="form-group">
-          <h2>Группы товаров</h2>
+        </fieldset>
+        <fieldset class="form-group">
+          <legend>Группы товаров</legend>
           <label>
             <input type="radio" name="shaver_accesories">
             Бритвенные принадлежности
@@ -92,90 +93,78 @@
             <input type="radio" name="accesories">
             Аксессуары
           </label>
-        </div>
+        </fieldset>
         <button class="btn" type="submit">Показать</button>
       </form>
     </aside>
     <section class="catalog">
       <article class="catalog-item">
-        <figure class="catalog-preview">
-          <img src="http://placehold.it/210x150" width="210" height="150" alt="Барбершоп">
-        </figure>
-        <div class="catalog-description">
-          <p>
-            Набор для путешествий  «Baxter of California»
-          </p>
+        <div class="item-preview">
+          <img src="img/product1.jpg" width="220" height="165" alt="Барбершоп">
         </div>
+        <h2 class="catalog-description">
+            Набор для путешествий  «Baxter of California»
+        </h2>
         <div class="price-and-buy">
           <span class="price">2 900 РУБ.</span>
           <a href="#" class="btn">Купить</a>
         </div>
       </article>
       <article class="catalog-item">
-        <figure class="catalog-preview">
-          <img src="http://placehold.it/210x150" width="210" height="150" alt="Барбершоп">
-        </figure>
-        <div class="catalog-description">
-          <p>
-            Набор для путешествий  «Baxter of California»
-          </p>
+        <div class="item-preview">
+          <img src="img/product2.jpg" width="220" height="165" alt="Барбершоп">
         </div>
+        <h2 class="catalog-description">
+            Набор для путешествий  «Baxter of California»
+        </h2>
         <div class="price-and-buy">
           <span class="price">2 900 РУБ.</span>
           <a href="#" class="btn">Купить</a>
         </div>
       </article>
       <article class="catalog-item">
-        <figure class="catalog-preview">
-          <img src="http://placehold.it/210x150" width="210" height="150" alt="Барбершоп">
-        </figure>
-        <div class="catalog-description">
-          <p>
-            Набор для путешествий  «Baxter of California»
-          </p>
+        <div class="item-preview">
+          <img src="img/product3.jpg" width="220" height="165" alt="Барбершоп">
         </div>
+        <h2 class="catalog-description">
+            Набор для путешествий  «Baxter of California»
+        </h2>
         <div class="price-and-buy">
           <span class="price">2 900 РУБ.</span>
           <a href="#" class="btn">Купить</a>
         </div>
       </article>
       <article class="catalog-item">
-        <figure class="catalog-preview">
-          <img src="http://placehold.it/210x150" width="210" height="150" alt="Барбершоп">
-        </figure>
-        <div class="catalog-description">
-          <p>
-            Набор для путешествий  «Baxter of California»
-          </p>
+        <div class="item-preview">
+          <img src="img/product4.jpg" width="220" height="165" alt="Барбершоп">
         </div>
+        <h2 class="catalog-description">
+            Набор для путешествий  «Baxter of California»
+        </h2>
         <div class="price-and-buy">
           <span class="price">2 900 РУБ.</span>
           <a href="#" class="btn">Купить</a>
         </div>
       </article>
       <article class="catalog-item">
-        <figure class="catalog-preview">
-          <img src="http://placehold.it/210x150" width="210" height="150" alt="Барбершоп">
-        </figure>
-        <div class="catalog-description">
-          <p>
-            Набор для путешествий  «Baxter of California»
-          </p>
+        <div class="item-preview">
+          <img src="img/product5.jpg" width="220" height="165" alt="Барбершоп">
         </div>
+        <h2 class="catalog-description">
+            Набор для путешествий  «Baxter of California»
+        </h2>
         <div class="price-and-buy">
           <span class="price">2 900 РУБ.</span>
           <a href="#" class="btn">Купить</a>
         </div>
       </article>
       <article class="catalog-item">
-        <figure class="catalog-preview">
-          <img src="http://placehold.it/210x150" width="210" height="150" alt="Барбершоп">
-        </figure>
-        <div class="catalog-description">
-          <p>
-            Набор для путешествий  «Baxter of California»
-          </p>
+        <div class="item-preview">
+          <img src="img/product6.jpg" width="220" height="165" alt="Барбершоп">
         </div>
+        <h2 class="catalog-description">
+            Набор для путешествий  «Baxter of California»
+        </h2>
         <div class="price-and-buy">
           <span class="price">2 900 РУБ.</span>
           <a href="#" class="btn">Купить</a>
