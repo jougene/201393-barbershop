@@ -1,6 +1,7 @@
 body {
     color: black;
-    font-family: "PT Sans Narrow", Arial;
+    font-family: "PT Sans", Arial, serif;
+    background-color: #f9f5f2;
 }
 
 /*******************HEADER***********************/
