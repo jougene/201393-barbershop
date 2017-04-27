@@ -5,6 +5,72 @@ body {
 }
 
 /*******************HEADER***********************/
+.page-header {
+    outline: 1px solid green;
+    margin-bottom: 55px;
+    background-color: #000000;
+}
+
+.container {
+    outline: 2px solid red;
+    width: 960px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.page-header .logo {
+    float: left;
+    width: 140px;
+    margin-right: 20px;
+    outline: 1px solid black;
+}
+
+.main-menu {
+    float: left;
+    width: 660px;
+    outline: 1px solid black;
+    font-size: 0;
+}
+
+.main-menu ul, 
+.main-menu li {
+    margin: 0;
+} 
+
+.main-menu ul { 
+    list-style: none;
+    padding: 20px 0;
+}
+
+.main-menu .menu-item {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 20px;
+    margin-right: 40px;
+}
+
+.main-menu a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.user-block {
+    float: right;
+    width: 140px;
+    padding: 20px 0;
+    outline: 1px solid black;
+}
+
+.user-block a {
+    text-decoration: none;
+    color: #ffffff;
+}
 /************************************************/
 
 /*******************MAIN***********************/
@@ -12,6 +78,55 @@ body {
     font-size: 30px;
     font-weight: normal;
     line-height: 42px;
+    margin: 0;
+}
+
+.breadcrumbs {
+    font-size: 0;
+}
+
+.breadcrumbs ul,
+.breadcrumbs li {
+    margin: 0;
+    padding: 0;
+}
+.breadcrumbs ul {
+    list-style: none;
+    padding: 10px 0;
+}
+.breadcrumbs li {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 20px;
+    margin-right: 15px;
+    text-transform: uppercase;
+}
+
+.breadcrumbs a {
+    text-decoration: none;
+}
+
+.catalog-filter {
+    float: left;
+    width: 220px;
+    margin-right: 20px;
+}
+
+.catalog-filter .form-group {
+    
+}
+
+.catalog {
+    float: right;
+    width: 700px;
+    font-size: 0;
+}
+
+.catalog-item {
+    display: inline-block;
+    width: 220px;
+    font-size: 14px;
+    line-height: 18px;
 }
 
 .catalog-description {
@@ -19,7 +134,79 @@ body {
     font-weight: normal;
     line-height: 18px; 
 }
+
+.item .item-images {
+    float: left;
+    width: 460px;
+}
+
+.item .main-image {
+    padding: 0;
+    margin: 0;
+}
+
+.item .also-images img {
+    margin-right: 15px;
+}
+.item .also-images img:last-child {
+    margin-right: 0;
+}
+
+.item .item-info {
+    float: right;
+    width: 400px;
+}
+
+.our-resources {
+    float: left;
+    width: 380px;
+}
+
+.our-prices {
+    float: right;
+    width: 460px;
+}
+
+.pagination {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.pagination a {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+}
+
 /**********************************************/
 
 /*******************FOOTER***********************/
+footer {
+    outline: 1px solid green;
+    background-color: #1d1d1d;
+    margin-top: 50px;
+}
+
+footer * {
+    color: #ffffff;
+}
+
+.footer-contacts {
+    float: left;
+    width: 380px;
+}
+.footer-socials {
+    float: left;
+    width: 300px;
+}
+
+.footer-copyright {
+    float: right;
+    width: 220px;
+}
+
+
+
+
+
 /************************************************/
